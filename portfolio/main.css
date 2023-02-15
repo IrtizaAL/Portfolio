@@ -1,0 +1,59 @@
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.menu {
+    margin-right: 5%;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#mainNav .nav-link :hover {
+    color: #EA1C2C;
+}
+
+.navbar.scrolled {
+    background: #e0eff9;
+}
+
+.btn {
+    color: #ffffff;
+    background-color: #FF6464;
+}
+
+#main_img {
+    background: #e0eff9;
+}
+
+.sec1 {
+    margin-top: 12%;
+}
+
+.sec2 {
+    background: #e0eff9;
+}
+
+#background_img {
+    background: transparent url("https://images.unsplash.com/photo-1649523294178-80e1d04eae51?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxODR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60") center / cover no-repeat border-box;
+    min-height: 100%;
+    opacity: 100%;
+}
+
+#details {
+    background: #e0eff9;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+}
